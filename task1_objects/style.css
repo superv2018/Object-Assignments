@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: ; /*1rem = 10px, 10px/16px = 62.5%*/
+  background-color: lightgrey;
+  font-weight: 400;
+}
+
+#container {
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+h3,
+p {
+  font-size: 1.4rem;
+  margin: 1rem;
+}
+
+.bb {
+  margin: 1rem;
+}
+section {
+  margin-top: 3rem;
+}
+
+#search {
+  margin-left: 10rem;
+}
+label {
+  display: inline-block;
+  font-size: 1.2rem;
+  width: 10rem;
+}
+
+input {
+  width: 13rem;
+  height: 2rem;
+  padding: 0.2rem;
+ border: none;
+  border-radius: 5px;
+}
+
+#btn_div{
+  text-align: center;
+}
+#button {
+  width: 5rem;
+  height: 40px;
+  text-align: center;
+  margin-left: 140px;
+}
+button {
+  width: 5rem;
+  height: 40px;
+  text-align: center;
+  margin-left: 20px;
+  background-color: orange;
+  border: none;
+}
